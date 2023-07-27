@@ -83,12 +83,11 @@ Table of Contents
    The STIR framework as described in [RFC7340] is an authentication
    framework for asserting a telephone number or URI based identity
    using a digital signature and certificate based framework as
-   described in [RFC8225] and [RFC8226] respectively.  [RFC8224]
-   describes the use of the STIR framework in the SIP protocol [RFC3261]
-   and defines both the authentication service that creates a PASSporT,
-   defined in [RFC8225], and delivers it in an Identity header field and
-   the verification service that correspondingly verifies the PASSporT
-   and embedded originating identity.
+   described in [RFC8225] and [RFC8226] respectively. [RFC8224] describes the use of the STIR framework in the SIP
+protocol [RFC3261].  It defines both a) the authentication service that 
+creates a PASSporT [RFC8225] and delivers it in an Identity header field, 
+and b) the verification service that correspondingly verifies the PASSporT 
+and embedded originating identity.
 
    This document is concerned with errors in validating PASSporTs and
    Identity header fields and how they are communicated in special cases
