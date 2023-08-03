@@ -251,7 +251,7 @@ Internet-Draft               Identity Errors               February 2023
    policy to recognize and acknowledge the error (e.g. perform
    operational actions like logging or alarming), but then MUST remove
    the identified Reason header field to avoid the PASSporT information
-   from going upstream to a UAC or UAS that may not be authorized to see
+   from going upstream to a User Agent Client (UAC) or User Agent Server (UAS) that may not be authorized to see
    claim information contained in the PASSporT for privacy or other
    reasons.
 
