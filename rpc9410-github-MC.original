@@ -183,11 +183,11 @@ Internet-Draft               Identity Errors               February 2023
    field is RECOMMENDED.  As defined in [RFC8224], the STIR error codes
    used in responses are based on an error associated with a specific
    identity header field representing a single error occurring with the
-   verification and processing of that identity header field.  The
-   association of a "ppi" parameter with a Reason header field using
-   "STIR" protocol MUST only identify a single cause code in the context
-   of a call dialog defined in [RFC8224] or in future documents defining
-   STIR related errors.  The associated PASSporT object can be included
+   verification and processing of that identity header field.  The association of 
+   a "ppi" parameter with a Reason header field [RFC3326] using the protocol value of "STIR" 
+   defined in this document MUST only identify a single cause code [RFC3326] in the context of a 
+   call dialog [RFC3261] corresponding only to the STIR-related error codes defined in [RFC8224] 
+   or future documents defining STIR-related error codes.  The associated PASSporT object can be included
    either in full form or in compact form, where only the signature of
    the PASSporT is included with two periods as a prefix as defined in
    [RFC8225] Section 7 to identify the reported Identity header field
