@@ -98,8 +98,8 @@ Table of Contents
    current 4xx error response and that when there is a verification
    error, the call is terminated.  In some deployments, it may be the
    case that the policy for handling errors dictates that calls should
-   continue even if there is a verification error.  In many cases of,
-   for example, inadvertent or operational errors that do not represent
+   continue even if there is a verification error. For example, in many cases 
+   of inadvertent or operational errors that do not represent
 
 
 
@@ -108,9 +108,9 @@ Wendt                    Expires 29 August 2023                 [Page 2]
 Internet-Draft               Identity Errors               February 2023
 
 
-   any identity falsification type of attempt, the policy of continuing
-   the call even though the identity is not verified, may be the
-   preferred policy.  In these cases, the authentication service should
+   any type of identity falsification attempt, the preferred
+   policy may be to continue the call despite the unverified
+   identity.  In these cases, the authentication service should
    still be notified of the error so that corrective action can be taken
    to fix any issues.  This specification will discuss the use of the
    Reason header field in subsequent provisional (1xx) responses in
