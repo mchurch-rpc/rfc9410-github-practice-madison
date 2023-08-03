@@ -93,9 +93,9 @@ and embedded originating identity.
    Identity header fields and how they are communicated in special cases
    and defines a solution to help address the potential issue of
    multiple Identity header fields and the plurality of potential
-   verification errors.  Additionally, it addresses the issue of the
-   current 4xx error response and that when there is a verification
-   error, the call is terminated.  In some deployments, it may be the
+   verification errors.  Additionally, it addresses the issue of the current 4xx error
+response, i.e., the call is terminated when a verification error is
+present.  In some deployments, it may be the
    case that the policy for handling errors dictates that calls should
    continue even if there is a verification error.  In many cases of,
    for example, inadvertent or operational errors that do not represent
